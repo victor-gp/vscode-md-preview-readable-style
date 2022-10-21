@@ -65,3 +65,12 @@ body,
   line-height: 1.5;
   word-wrap: break-word;
 }
+
+.vscode-body code,
+.vscode-body tt {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(20,20,20,0.2);
+  border-radius: 6px;
+}
