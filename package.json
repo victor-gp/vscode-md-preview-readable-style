@@ -1,6 +1,6 @@
 {
   "name": "markdown-preview-readable-styles",
-  "displayName": "Markdown Preview Readable Styles",
+  "displayName": "Markdown Preview Readable Styling",
   "description": "Style the built-in Markdown preview to improve readability. ",
   "version": "0.0.1",
   "engines": {
