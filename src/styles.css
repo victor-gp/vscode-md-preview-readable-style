@@ -6,11 +6,6 @@ body,
 }
 
 .vscode-body {
-    background-color: var(--color-canvas-default);
-    color: var(--color-fg-default);
-}
-
-.vscode-body {
     border: 1px solid transparent;
     box-sizing: border-box;
     margin: 0 auto;
@@ -35,18 +30,6 @@ body,
 
 .vscode-body blockquote {
     background-color: initial;
-}
-
-.vscode-body pre {
-    color: initial;
-}
-
-.vscode-body code {
-    color: inherit;
-}
-
-.vscode-body pre code {
-    color: initial;
 }
 
 .vscode-body code > div {
