@@ -10,7 +10,7 @@ I only made this extension because there's no way to set a Markdown Preview styl
 
 ## Further improvements
 
-This extension only styles the Markdown preview. There are other extensions that add support for Markdown features like :emoji: and `- [ ]` tasklists.
+This extension only styles the Markdown preview. There are other extensions that add support for Markdown features like `:emoji:` and `- [ ]` tasklists.
 
 [This extension pack](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview) is a good starting point to enable these.
 
