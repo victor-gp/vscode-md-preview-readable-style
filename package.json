@@ -14,10 +14,9 @@
   ],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "a.helloWorld",
-      "title": "Hello World"
-    }]
+    "markdown.previewStyles": [
+      "./src/styles.css"
+    ]
   },
   "scripts": {
     "lint": "eslint .",
