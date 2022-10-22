@@ -3,43 +3,43 @@
 html,
 body,
 .vscode-body {
-    padding: 0 !important;
-    max-width: auto !important;
+  padding: 0 !important;
+  max-width: auto !important;
 }
 
 .vscode-body {
-    border: 1px solid transparent;
-    box-sizing: border-box;
-    margin: 0 auto;
-    width: 100% !important;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100% !important;
 }
 
 .markdown-body {
-    padding: 32px !important;
-    max-width: 980px;
-    min-width: 200px;
-    margin: 0 auto;
+  padding: 32px !important;
+  max-width: 980px;
+  min-width: 200px;
+  margin: 0 auto;
 }
 
 
 .vscode-body.scrollBeyondLastLine {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 /* how do I deal with the .github-markdown-body here? */
 .vscode-body.scrollBeyondLastLine .github-markdown-body {
-    padding-bottom: calc(100vh + 10px) !important;
+  padding-bottom: calc(100vh + 10px) !important;
 }
 
 .vscode-body blockquote {
-    background-color: initial;
+  background-color: initial;
 }
 
 .vscode-body code > div {
-    background: none
+  background: none
 }
 
 .vscode-body.showEditorSelection .code-line .code-line:hover:before {
-	border-left: none;
+  border-left: none;
 }
 
 .vscode-body p,
