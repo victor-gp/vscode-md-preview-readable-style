@@ -11,6 +11,7 @@
   },
   "contributes": {
     "markdown.previewStyles": [
+      "./src/colors.css",
       "./src/styles.css"
     ]
   },
