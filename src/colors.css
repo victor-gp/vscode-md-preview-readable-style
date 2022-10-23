@@ -1,3 +1,4 @@
 .vscode-body {
   --color-border-muted: var(--vscode-editorIndentGuide-background);
+  --color-neutral-muted: rgba(20, 20, 20, 0.2);
 }

@@ -67,15 +67,6 @@ body,
   word-wrap: break-word;
 }
 
-.vscode-body code,
-.vscode-body tt {
-  padding: .2em .4em;
-  margin: 0;
-  font-size: 85%;
-  background-color: rgba(20,20,20,0.2);
-  border-radius: 6px;
-}
-
 .vscode-body .octicon {
   display: inline-block;
   fill: currentColor;
@@ -109,7 +100,6 @@ body,
 
 .vscode-body a {
   background-color: transparent;
-  color: var(--color-accent-fg);
   text-decoration: none;
 }
 
