@@ -15,6 +15,7 @@ body,
 }
 
 .markdown-body {
+  /* nice: we probably don't need so much padding, considering h1 adds another 24px margin */
   padding: 32px !important;
   /*nice: maybe do 60em or a little more for max-width? and scrap min-width? */
   max-width: 980px;
