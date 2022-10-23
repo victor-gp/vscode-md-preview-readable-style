@@ -332,6 +332,7 @@ body,
 
 .vscode-body blockquote {
   margin: 0;
+  border-left: .25em solid var(--vscode-textBlockQuote-border);
   padding: .2em 1em;
 }
 
