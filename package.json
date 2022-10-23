@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mjbvz/vscode-github-markdown-preview-style.git"
+    "url": "https://github.com/victor-gp/vscode-markdown-preview-readable-styles"
   },
   "contributes": {
     "markdown.previewStyles": [
@@ -23,7 +23,7 @@
     "markdown preview",
     "style"
   ],
-  "bugs": "https://github.com/mjbvz/vscode-github-markdown-preview-style/issues",
+  "bugs": "https://github.com/victor-gp/vscode-markdown-preview-readable-styles/issues",
   "qna": "false",
   "engines": {
     "vscode": "^1.72.0"
