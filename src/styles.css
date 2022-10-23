@@ -16,6 +16,7 @@ body,
 
 .markdown-body {
   padding: 32px !important;
+  /*nice: maybe do 60em or a little more for max-width? and scrap min-width? */
   max-width: 980px;
   min-width: 200px;
   margin: 0 auto;
@@ -25,7 +26,7 @@ body,
 .vscode-body.scrollBeyondLastLine {
   margin-bottom: 0;
 }
-/* how do I deal with the .github-markdown-body here? */
+/*fixme: how do I deal with the .github-markdown-body here? */
 .vscode-body.scrollBeyondLastLine .github-markdown-body {
   padding-bottom: calc(100vh + 10px) !important;
 }
