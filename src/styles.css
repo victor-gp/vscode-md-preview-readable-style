@@ -76,6 +76,894 @@ body,
   border-radius: 6px;
 }
 
+.vscode-body .octicon {
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+}
+
+.vscode-body h1:hover .anchor .octicon-link:before,
+.vscode-body h2:hover .anchor .octicon-link:before,
+.vscode-body h3:hover .anchor .octicon-link:before,
+.vscode-body h4:hover .anchor .octicon-link:before,
+.vscode-body h5:hover .anchor .octicon-link:before,
+.vscode-body h6:hover .anchor .octicon-link:before {
+  width: 16px;
+  height: 16px;
+  content: ' ';
+  display: inline-block;
+  background-color: currentColor;
+  -webkit-mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");
+  mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");
+}
+
+.vscode-body details,
+.vscode-body figcaption,
+.vscode-body figure {
+  display: block;
+}
+
+.vscode-body summary {
+  display: list-item;
+}
+
+.vscode-body a {
+  background-color: transparent;
+  color: var(--color-accent-fg);
+  text-decoration: none;
+}
+
+.vscode-body a:active,
+.vscode-body a:hover {
+  outline-width: 0;
+}
+
+.vscode-body abbr[title] {
+  border-bottom: none;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+
+.vscode-body b,
+.vscode-body strong {
+  font-weight: 600;
+}
+
+.vscode-body dfn {
+  font-style: italic;
+}
+
+.vscode-body h1 {
+  margin: .67em 0;
+  font-weight: 600;
+  padding-bottom: .3em;
+  font-size: 2em;
+  border-bottom: 1px solid var(--color-border-muted);
+}
+
+.vscode-body mark {
+  background-color: #ff0;
+  color: var(--color-text-primary);
+}
+
+.vscode-body small {
+  font-size: 90%;
+}
+
+.vscode-body sub,
+.vscode-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.vscode-body sub {
+  bottom: -0.25em;
+}
+
+.vscode-body sup {
+  top: -0.5em;
+}
+
+.vscode-body img {
+  border-style: none;
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: var(--color-canvas-default);
+}
+
+.vscode-body code,
+.vscode-body kbd,
+.vscode-body pre,
+.vscode-body samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+.vscode-body figure {
+  margin: 1em 40px;
+}
+
+.vscode-body hr {
+  box-sizing: content-box;
+  overflow: hidden;
+  background: transparent;
+  border-bottom: 1px solid var(--color-border-muted);
+  height: .25em;
+  padding: 0;
+  margin: 24px 0;
+  background-color: var(--color-border-default);
+  border: 0;
+}
+
+.vscode-body html [type=button],
+.vscode-body [type=reset],
+.vscode-body [type=submit] {
+  -webkit-appearance: button;
+}
+
+.vscode-body [type=button]::-moz-focus-inner,
+.vscode-body [type=reset]::-moz-focus-inner,
+.vscode-body [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+.vscode-body [type=button]:-moz-focusring,
+.vscode-body [type=reset]:-moz-focusring,
+.vscode-body [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+.vscode-body [type=checkbox],
+.vscode-body [type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.vscode-body [type=number]::-webkit-inner-spin-button,
+.vscode-body [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+.vscode-body [type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+.vscode-body [type=search]::-webkit-search-cancel-button,
+.vscode-body [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+.vscode-body ::-webkit-input-placeholder {
+  color: inherit;
+  opacity: .54;
+}
+
+.vscode-body ::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+.vscode-body a:hover {
+  text-decoration: underline;
+}
+
+.vscode-body hr::before {
+  display: table;
+  content: "";
+}
+
+.vscode-body hr::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.vscode-body table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.vscode-body td,
+.vscode-body th {
+  padding: 0;
+}
+
+.vscode-body details summary {
+  cursor: pointer;
+}
+
+.vscode-body details:not([open])>*:not(summary) {
+  display: none !important;
+}
+
+.vscode-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  line-height: 10px;
+  color: var(--color-fg-default);
+  vertical-align: middle;
+  background-color: var(--color-canvas-subtle);
+  border: solid 1px var(--color-neutral-muted);
+  border-bottom-color: var(--color-neutral-muted);
+  border-radius: 6px;
+  box-shadow: inset 0 -1px 0 var(--color-neutral-muted);
+}
+
+.vscode-body h1,
+.vscode-body h2,
+.vscode-body h3,
+.vscode-body h4,
+.vscode-body h5,
+.vscode-body h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.vscode-body h2 {
+  font-weight: 600;
+  padding-bottom: .3em;
+  font-size: 1.5em;
+  border-bottom: 1px solid var(--color-border-muted);
+}
+
+.vscode-body h3 {
+  font-weight: 600;
+  font-size: 1.25em;
+}
+
+.vscode-body h4 {
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.vscode-body h5 {
+  font-weight: 600;
+  font-size: .875em;
+}
+
+.vscode-body h6 {
+  font-weight: 600;
+  font-size: .85em;
+  color: var(--color-fg-muted);
+}
+
+.vscode-body p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.vscode-body blockquote {
+  margin: 0;
+  padding: 0 1em;
+  color: var(--color-fg-muted);
+  border-left: .25em solid var(--color-border-default);
+}
+
+.vscode-body ul,
+.vscode-body ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 2em;
+}
+
+.vscode-body ol ol,
+.vscode-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.vscode-body ul ul ol,
+.vscode-body ul ol ol,
+.vscode-body ol ul ol,
+.vscode-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.vscode-body dd {
+  margin-left: 0;
+}
+
+.vscode-body tt,
+.vscode-body code {
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 12px;
+}
+
+.vscode-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 12px;
+  word-wrap: normal;
+}
+
+.vscode-body :-ms-input-placeholder {
+  color: var(--color-fg-subtle);
+  opacity: 1;
+}
+
+.vscode-body ::-ms-input-placeholder {
+  color: var(--color-fg-subtle);
+  opacity: 1;
+}
+
+.vscode-body ::placeholder {
+  color: var(--color-fg-subtle);
+  opacity: 1;
+}
+
+.vscode-body .pl-c {
+  color: var(--color-prettylights-syntax-comment);
+}
+
+.vscode-body .pl-c1,
+.vscode-body .pl-s .pl-v {
+  color: var(--color-prettylights-syntax-constant);
+}
+
+.vscode-body .pl-e,
+.vscode-body .pl-en {
+  color: var(--color-prettylights-syntax-entity);
+}
+
+.vscode-body .pl-smi,
+.vscode-body .pl-s .pl-s1 {
+  color: var(--color-prettylights-syntax-storage-modifier-import);
+}
+
+.vscode-body .pl-ent {
+  color: var(--color-prettylights-syntax-entity-tag);
+}
+
+.vscode-body .pl-k {
+  color: var(--color-prettylights-syntax-keyword);
+}
+
+.vscode-body .pl-s,
+.vscode-body .pl-pds,
+.vscode-body .pl-s .pl-pse .pl-s1,
+.vscode-body .pl-sr,
+.vscode-body .pl-sr .pl-cce,
+.vscode-body .pl-sr .pl-sre,
+.vscode-body .pl-sr .pl-sra {
+  color: var(--color-prettylights-syntax-string);
+}
+
+.vscode-body .pl-v,
+.vscode-body .pl-smw {
+  color: var(--color-prettylights-syntax-variable);
+}
+
+.vscode-body .pl-bu {
+  color: var(--color-prettylights-syntax-brackethighlighter-unmatched);
+}
+
+.vscode-body .pl-ii {
+  color: var(--color-prettylights-syntax-invalid-illegal-text);
+  background-color: var(--color-prettylights-syntax-invalid-illegal-bg);
+}
+
+.vscode-body .pl-c2 {
+  color: var(--color-prettylights-syntax-carriage-return-text);
+  background-color: var(--color-prettylights-syntax-carriage-return-bg);
+}
+
+.vscode-body .pl-sr .pl-cce {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-string-regexp);
+}
+
+.vscode-body .pl-ml {
+  color: var(--color-prettylights-syntax-markup-list);
+}
+
+.vscode-body .pl-mh,
+.vscode-body .pl-mh .pl-en,
+.vscode-body .pl-ms {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-markup-heading);
+}
+
+.vscode-body .pl-mi {
+  font-style: italic;
+  color: var(--color-prettylights-syntax-markup-italic);
+}
+
+.vscode-body .pl-mb {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-markup-bold);
+}
+
+.vscode-body .pl-md {
+  color: var(--color-prettylights-syntax-markup-deleted-text);
+  background-color: var(--color-prettylights-syntax-markup-deleted-bg);
+}
+
+.vscode-body .pl-mi1 {
+  color: var(--color-prettylights-syntax-markup-inserted-text);
+  background-color: var(--color-prettylights-syntax-markup-inserted-bg);
+}
+
+.vscode-body .pl-mc {
+  color: var(--color-prettylights-syntax-markup-changed-text);
+  background-color: var(--color-prettylights-syntax-markup-changed-bg);
+}
+
+.vscode-body .pl-mi2 {
+  color: var(--color-prettylights-syntax-markup-ignored-text);
+  background-color: var(--color-prettylights-syntax-markup-ignored-bg);
+}
+
+.vscode-body .pl-mdr {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-meta-diff-range);
+}
+
+.vscode-body .pl-ba {
+  color: var(--color-prettylights-syntax-brackethighlighter-angle);
+}
+
+.vscode-body .pl-sg {
+  color: var(--color-prettylights-syntax-sublimelinter-gutter-mark);
+}
+
+.vscode-body .pl-corl {
+  text-decoration: underline;
+  color: var(--color-prettylights-syntax-constant-other-reference-link);
+}
+
+.vscode-body [data-catalyst] {
+  display: block;
+}
+
+.vscode-body g-emoji {
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1em;
+  font-style: normal !important;
+  font-weight: 400;
+  line-height: 1;
+  vertical-align: -0.075em;
+}
+
+.vscode-body g-emoji img {
+  width: 1em;
+  height: 1em;
+}
+
+.vscode-body::before {
+  display: table;
+  content: "";
+}
+
+.vscode-body::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.vscode-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.vscode-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.vscode-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.vscode-body .absent {
+  color: var(--color-danger-fg);
+}
+
+.vscode-body .anchor {
+  float: left;
+  padding-right: 4px;
+  margin-left: -20px;
+  line-height: 1;
+}
+
+.vscode-body .anchor:focus {
+  outline: none;
+}
+
+.vscode-body p,
+.vscode-body blockquote,
+.vscode-body ul,
+.vscode-body ol,
+.vscode-body dl,
+.vscode-body table,
+.vscode-body pre,
+.vscode-body details {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.vscode-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.vscode-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.vscode-body sup>a::before {
+  content: "[";
+}
+
+.vscode-body sup>a::after {
+  content: "]";
+}
+
+.vscode-body h1 .octicon-link,
+.vscode-body h2 .octicon-link,
+.vscode-body h3 .octicon-link,
+.vscode-body h4 .octicon-link,
+.vscode-body h5 .octicon-link,
+.vscode-body h6 .octicon-link {
+  color: var(--color-fg-default);
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.vscode-body h1:hover .anchor,
+.vscode-body h2:hover .anchor,
+.vscode-body h3:hover .anchor,
+.vscode-body h4:hover .anchor,
+.vscode-body h5:hover .anchor,
+.vscode-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.vscode-body h1:hover .anchor .octicon-link,
+.vscode-body h2:hover .anchor .octicon-link,
+.vscode-body h3:hover .anchor .octicon-link,
+.vscode-body h4:hover .anchor .octicon-link,
+.vscode-body h5:hover .anchor .octicon-link,
+.vscode-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.vscode-body h1 tt,
+.vscode-body h1 code,
+.vscode-body h2 tt,
+.vscode-body h2 code,
+.vscode-body h3 tt,
+.vscode-body h3 code,
+.vscode-body h4 tt,
+.vscode-body h4 code,
+.vscode-body h5 tt,
+.vscode-body h5 code,
+.vscode-body h6 tt,
+.vscode-body h6 code {
+  padding: 0 .2em;
+  font-size: inherit;
+}
+
+.vscode-body ul.no-list,
+.vscode-body ol.no-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.vscode-body ol[type="1"] {
+  list-style-type: decimal;
+}
+
+.vscode-body ol[type=a] {
+  list-style-type: lower-alpha;
+}
+
+.vscode-body ol[type=i] {
+  list-style-type: lower-roman;
+}
+
+.vscode-body div>ol:not([type]) {
+  list-style-type: decimal;
+}
+
+.vscode-body ul ul,
+.vscode-body ul ol,
+.vscode-body ol ol,
+.vscode-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.vscode-body li>p {
+  margin-top: 16px;
+}
+
+.vscode-body li+li {
+  margin-top: .25em;
+}
+
+.vscode-body dl {
+  padding: 0;
+}
+
+.vscode-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.vscode-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.vscode-body table th {
+  font-weight: 600;
+}
+
+.vscode-body table th,
+.vscode-body table td {
+  padding: 6px 13px;
+  border: 1px solid var(--color-border-default);
+}
+
+.vscode-body table tr {
+  background-color: var(--color-canvas-default);
+  border-top: 1px solid var(--color-border-muted);
+}
+
+.vscode-body table tr:nth-child(2n) {
+  background-color: var(--color-canvas-subtle);
+}
+
+.vscode-body table img {
+  background-color: transparent;
+}
+
+.vscode-body img[align=right] {
+  padding-left: 20px;
+}
+
+.vscode-body img[align=left] {
+  padding-right: 20px;
+}
+
+.vscode-body .emoji {
+  max-width: none;
+  vertical-align: text-top;
+  background-color: transparent;
+}
+
+.vscode-body span.frame {
+  display: block;
+  overflow: hidden;
+}
+
+.vscode-body span.frame>span {
+  display: block;
+  float: left;
+  width: auto;
+  padding: 7px;
+  margin: 13px 0 0;
+  overflow: hidden;
+  border: 1px solid var(--color-border-default);
+}
+
+.vscode-body span.frame span img {
+  display: block;
+  float: left;
+}
+
+.vscode-body span.frame span span {
+  display: block;
+  padding: 5px 0 0;
+  clear: both;
+  color: var(--color-fg-default);
+}
+
+.vscode-body span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.vscode-body span.align-center>span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.vscode-body span.align-center span img {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.vscode-body span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.vscode-body span.align-right>span {
+  display: block;
+  margin: 13px 0 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.vscode-body span.align-right span img {
+  margin: 0;
+  text-align: right;
+}
+
+.vscode-body span.float-left {
+  display: block;
+  float: left;
+  margin-right: 13px;
+  overflow: hidden;
+}
+
+.vscode-body span.float-left span {
+  margin: 13px 0 0;
+}
+
+.vscode-body span.float-right {
+  display: block;
+  float: right;
+  margin-left: 13px;
+  overflow: hidden;
+}
+
+.vscode-body span.float-right>span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.vscode-body code,
+.vscode-body tt {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: var(--color-neutral-muted);
+  border-radius: 6px;
+}
+
+.vscode-body code br,
+.vscode-body tt br {
+  display: none;
+}
+
+.vscode-body del code {
+  text-decoration: inherit;
+}
+
+.vscode-body pre code {
+  font-size: 100%;
+}
+
+.vscode-body pre>code {
+  padding: 0;
+  margin: 0;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.vscode-body .highlight {
+  margin-bottom: 16px;
+}
+
+.vscode-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.vscode-body .highlight pre,
+.vscode-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: var(--color-canvas-subtle);
+  border-radius: 6px;
+}
+
+.vscode-body pre code,
+.vscode-body pre tt {
+  display: inline;
+  max-width: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.vscode-body .csv-data td,
+.vscode-body .csv-data th {
+  padding: 5px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.vscode-body .csv-data .blob-num {
+  padding: 10px 8px 9px;
+  text-align: right;
+  background: var(--color-canvas-default);
+  border: 0;
+}
+
+.vscode-body .csv-data tr {
+  border-top: 0;
+}
+
+.vscode-body .csv-data th {
+  font-weight: 600;
+  background: var(--color-canvas-subtle);
+  border-top: 0;
+}
+
+.vscode-body .footnotes {
+  font-size: 12px;
+  color: var(--color-fg-muted);
+  border-top: 1px solid var(--color-border-default);
+}
+
+.vscode-body .footnotes ol {
+  padding-left: 16px;
+}
+
+.vscode-body .footnotes li {
+  position: relative;
+}
+
+.vscode-body .footnotes li:target::before {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -24px;
+  pointer-events: none;
+  content: "";
+  border: 2px solid var(--color-accent-emphasis);
+  border-radius: 6px;
+}
+
+.vscode-body .footnotes li:target {
+  color: var(--color-fg-default);
+}
+
+.vscode-body .footnotes .data-footnote-backref g-emoji {
+  font-family: monospace;
+}
+
+.vscode-body [hidden] {
+  display: none !important;
+}
+
+.vscode-body ::-webkit-calendar-picker-indicator {
+  filter: invert(50%);
+}
+
 /* tweaks */
 
 .vscode-body input[type="checkbox"] {
