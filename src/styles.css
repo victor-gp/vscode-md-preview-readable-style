@@ -31,10 +31,6 @@ body,
   padding-bottom: calc(100vh + 10px) !important;
 }
 
-.vscode-body blockquote {
-  background-color: initial;
-}
-
 .vscode-body code > div {
   background: none
 }
@@ -335,9 +331,7 @@ body,
 
 .vscode-body blockquote {
   margin: 0;
-  padding: 0 1em;
-  color: var(--color-fg-muted);
-  border-left: .25em solid var(--color-border-default);
+  padding: .2em 1em;
 }
 
 .vscode-body ul,
