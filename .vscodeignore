@@ -1,6 +1,6 @@
 **/*
 !src/**/
 !README.md
-!LICENSE
+!LICENSE.txt
 !CHANGELOG.md
 !assets/vsce/*
