@@ -1,7 +1,7 @@
 {
   "name": "markdown-preview-readable-styles",
-  "publisher": "victor.gp",
-  "version": "0.0.1",
+  "publisher": "victor-gp",
+  "version": "0.1.0",
   "displayName": "Markdown Preview Readable Styling",
   "description": "Style the built-in Markdown preview to improve readability.",
   "license": "MIT",
