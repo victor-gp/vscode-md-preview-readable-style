@@ -1,4 +1,4 @@
-# Markdown Preview Readable Styling
+# Markdown Preview Readable Style
 
 Styles to make [the VS Code Markdown preview](https://code.visualstudio.com/Docs/languages/markdown#_markdown-preview) more readable.
 

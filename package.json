@@ -1,13 +1,13 @@
 {
-  "name": "markdown-preview-readable-styles",
+  "name": "md-preview-readable-style",
   "publisher": "victor-gp",
   "version": "0.1.0",
-  "displayName": "Markdown Preview Readable Styling",
-  "description": "Style the built-in Markdown preview to improve readability.",
+  "displayName": "Markdown Preview Readable Style",
+  "description": "Style the built-in Markdown preview to improve readability",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/victor-gp/vscode-markdown-preview-readable-styles"
+    "url": "https://github.com/victor-gp/vscode-md-preview-readable-style"
   },
   "contributes": {
     "markdown.previewStyles": [
@@ -20,10 +20,12 @@
   ],
   "keywords": [
     "markdown",
+    "markdown css",
     "markdown preview",
+    "markdown style",
     "style"
   ],
-  "bugs": "https://github.com/victor-gp/vscode-markdown-preview-readable-styles/issues",
+  "bugs": "https://github.com/victor-gp/vscode-md-preview-readable-style/issues",
   "qna": "false",
   "engines": {
     "vscode": "^1.72.0"
