@@ -1,5 +1,5 @@
 .vscode-body {
-  --color-border-default: var(--vscode-editorIndentGuide-activeBackground);
+  --color-border-default: var(--vscode-tab-unfocusedActiveForeground);
   --color-border-muted: var(--vscode-editorIndentGuide-background);
   --color-neutral-muted: rgba(20, 20, 20, 0.2);
 }
