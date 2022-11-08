@@ -954,3 +954,7 @@ body,
 .vscode-body input[type="checkbox"] {
   pointer-events: none;
 }
+
+.vscode-body a:focus {
+  outline-color: var(--vscode-textLink-foreground);
+}

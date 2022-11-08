@@ -4,6 +4,7 @@
 
 - Rename the extension: `markdown-preview-readable-styles` to `md-preview-readable-style`.
 - Same on the GitHub project but with the `vscode-` prefix.
+- Make a:active outline color depend on the theme's `textLink.foreground` color.
 
 ## 0.1.0 - 2022-10-25
 
