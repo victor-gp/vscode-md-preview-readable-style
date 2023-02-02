@@ -1,5 +1,7 @@
 # Changelog
 
+## Unreleased
+
 ## 0.2.0 - 2023-02-02
 
 - Color the `a:active` outline like the theme's `textLink.foreground` color.
